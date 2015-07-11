@@ -1214,10 +1214,10 @@ int64_t GetBlockValue(int nHeight, int64_t nFees)
 {   
     int64_t nSubsidy = 0;
 
-    if(hHeight < 10000){
+    if(nHeight < 10000){
 
         nSubsidy = 10000; 
-    }else if(hHeight < 20000){
+    }else if(nHeight < 20000){
 
         nSubsidy = 2000; 
     }else{
