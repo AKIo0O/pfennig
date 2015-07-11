@@ -57,7 +57,7 @@ public:
         genesis.nNonce   = 121160;
 
         hashGenesisBlock = genesis.GetHash();
-
+        LogPrintf("Initializing databases.%s..\n", hashGenesisBlock);
         assert(hashGenesisBlock == uint256("0x6b8d4d929585c83ca31c528a3f130a6c83f36e299d606e7545d3983395b9888f"));
 
         // todo add more dns seeders
@@ -121,7 +121,7 @@ public:
 
         genesis.nTime = 1436577307;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 0;
+        genesis.nNonce = 121160;
         hashGenesisBlock = genesis.GetHash();
         //assert(hashGenesisBlock == uint256("0x1d6329aeff3ff6786635afd5d6715b24667329cfda199bd7a1d6626d81a4573c"));
 
@@ -154,7 +154,7 @@ public:
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
         genesis.nTime = 1436577307;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 0;
+        genesis.nNonce = 121160;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
