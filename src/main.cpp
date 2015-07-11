@@ -1211,24 +1211,33 @@ void static PruneOrphanBlocks()
 }
 
 int64_t GetBlockValue(int nHeight, int64_t nFees)
-{
-    int64_t nHalfReward = 10 * COIN;
+{   
     int64_t nSubsidy = 0;
-    int halvings = nHeight / Params().SubsidyHalvingInterval();
 
-    // Force block reward to zero after reward would drop below 0.1 marks.
-    if (halvings >= 18)
-        return nFees;
+    if(hHeight < 10000){
 
-    // Subsidy is cut in half every 788,000 blocks which will occur approximately every 3 years.
-    // Subsidy has an interim reduction every 394,000 blocks (18 months)
-    nSubsidy = (nHalfReward>>halvings) + (nHalfReward>>((nHeight+Params().SubsidyInterimInterval())/Params().SubsidyHalvingInterval()));
+        nSubsidy = 10000; 
+    }else if(hHeight < 20000){
 
-    return nSubsidy + nFees;
+        nSubsidy = 2000; 
+    }else{
+        nSubsidy = 100; 
+    }
+
+    // int64_t nHalfReward = 10 * COIN;
+    // int halvings = nHeight / Params().SubsidyHalvingInterval();
+    // // Force block reward to zero after reward would drop below 0.1 marks.
+    // if (halvings >= 18)
+    //     return nFees;
+    // // Subsidy is cut in half every 788,000 blocks which will occur approximately every 3 years.
+    // // Subsidy has an interim reduction every 394,000 blocks (18 months)
+    // nSubsidy = (nHalfReward>>halvings) + (nHalfReward>>((nHeight+Params().SubsidyInterimInterval())/Params().SubsidyHalvingInterval()));
+
+    return nSubsidy + nFees * 10;
 }
 
-static const int64_t nTargetTimespan = 24*60*60; // one day
-static const int64_t nTargetSpacing = 2*60; // two minutes
+static const int64_t nTargetTimespan = 60; // one day
+static const int64_t nTargetSpacing = 60; // two minutes
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -3041,7 +3050,7 @@ bool InitBlockIndex() {
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
         // Generate a new Genesis block
-		if (true)
+		if (false)
 		{
 			CBlock &block = const_cast<CBlock&>(Params().GenesisBlock());
 			GenesisBitmark(block);

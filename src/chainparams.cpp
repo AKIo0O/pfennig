@@ -54,11 +54,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1436577307;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 121160;
 
         hashGenesisBlock = genesis.GetHash();
 
-        //assert(hashGenesisBlock == uint256("0xc1fb746e87e89ae75bdec2ef0639a1f6786744639ce3d0ece1dcf979b79137cb"));
+        assert(hashGenesisBlock == uint256("0x6b8d4d929585c83ca31c528a3f130a6c83f36e299d606e7545d3983395b9888f"));
 
         // todo add more dns seeders
         vSeeds.push_back(CDNSSeedData("akicoin.co", "seed.pgennif.co"));
