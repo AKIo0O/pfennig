@@ -21,7 +21,7 @@ using namespace boost::assign;
 
 unsigned int pnSeed[] =
 {
-	0xac1f1f2a // replace this with your own networks fixed seed nodes
+	0x6ab929fd // replace this with your own networks fixed seed nodes
 };
 
 class CMainParams : public CChainParams {
@@ -35,13 +35,13 @@ public:
         pchMessageStart[2] = 0xb4;
         pchMessageStart[3] = 0xd9;
         vAlertPubKey = ParseHex("04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284");
-        nDefaultPort = P2PPORT;
-        nRPCPort = RPCPORT;
+        nDefaultPort = 8000;
+        nRPCPort = 8001;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 32);
-        nSubsidyHalvingInterval = 788000;
+        nSubsidyHalvingInterval = 8000;
 
         // Build the genesis block.
-        const char* pszTimestamp = "NEW PFENNIG GENESIS";
+        const char* pszTimestamp = "hello, world";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -52,7 +52,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1405274442;
+        genesis.nTime    = 1436577307;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 0;
 
@@ -61,7 +61,7 @@ public:
         //assert(hashGenesisBlock == uint256("0xc1fb746e87e89ae75bdec2ef0639a1f6786744639ce3d0ece1dcf979b79137cb"));
 
         // todo add more dns seeders
-        vSeeds.push_back(CDNSSeedData("pfennig.co", "seed.pgennif.co"));
+        vSeeds.push_back(CDNSSeedData("akicoin.co", "seed.pgennif.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(85); // b
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
@@ -114,12 +114,12 @@ public:
         pchMessageStart[2] = 0x09;
         pchMessageStart[3] = 0x07;
         vAlertPubKey = ParseHex("04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a");
-        nDefaultPort = 1P2PPORT;
-        nRPCPort = 1RPCPORT;
+        nDefaultPort = 18000;
+        nRPCPort = 18001;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         strDataDir = "testnet3";
 
-        genesis.nTime = 1405274408;
+        genesis.nTime = 1436577307;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
@@ -127,7 +127,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("pfennig.co", "test.pfennig.co"));
+        vSeeds.push_back(CDNSSeedData("akicoin.co", "test.akicoin.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(130); // u
         base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
@@ -152,7 +152,7 @@ public:
         pchMessageStart[3] = 0xda;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1405274400;
+        genesis.nTime = 1436577307;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();

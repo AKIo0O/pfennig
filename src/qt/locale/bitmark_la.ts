@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
+        <source>About AkiCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;AkiCoin Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,11 +102,11 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your AkiCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your AkiCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -204,7 +204,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AkiCoinS&lt;/b&gt;!</source>
         <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -224,8 +224,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Cassidile cifratum</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
-        <translation>Pfennig iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+        <source>AkiCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your akicoins from being stolen by malware infecting your computer.</source>
+        <translation>AkiCoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -257,7 +257,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>AkiCoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signa &amp;nuntium...</translation>
@@ -295,8 +295,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Exi applicatione</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
-        <translation>Monstra informationem de Pfennig</translation>
+        <source>Show information about AkiCoin</source>
+        <translation>Monstra informationem de AkiCoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -343,12 +343,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
-        <translation>Mitte nummos ad inscriptionem Pfennig</translation>
+        <source>Send coins to a AkiCoin address</source>
+        <translation>Mitte nummos ad inscriptionem AkiCoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Muta configurationis optiones pro Pfennig</translation>
+        <source>Modify configuration options for AkiCoin</source>
+        <translation>Muta configurationis optiones pro AkiCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -371,8 +371,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -399,12 +399,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Pfennig ut demonstres te eas possidere</translation>
+        <source>Sign messages with your AkiCoin addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus AkiCoin ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Pfennig</translation>
+        <source>Verify messages to ensure they were signed with specified AkiCoin addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus AkiCoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -427,15 +427,15 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Nucleus</translation>
+        <source>AkiCoin Core</source>
+        <translation>AkiCoin Nucleus</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pfennig: URIs)</source>
+        <source>Request payments (generates QR codes and akicoin: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
+        <source>&amp;About AkiCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -447,7 +447,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open a pfennig: URI or payment request</source>
+        <source>Open a akicoin: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -455,16 +455,16 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <source>Show the AkiCoin Core help message to get a list with possible AkiCoin command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig client</source>
-        <translation>Pfennig cliens</translation>
+        <source>AkiCoin client</source>
+        <translation>AkiCoin cliens</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
-        <translation><numerusform>%n activa conexio ad rete Pfennig</numerusform><numerusform>%n activae conexiones ad rete Pfennig</numerusform></translation>
+        <source>%n active connection(s) to AkiCoin network</source>
+        <translation><numerusform>%n activa conexio ad rete AkiCoin</numerusform><numerusform>%n activae conexiones ad rete AkiCoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -559,8 +559,8 @@ Inscriptio: %4
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>Error fatalis accidit.  Pfennig nondum pergere tute potest, et exibit.</translation>
+        <source>A fatal error occurred. AkiCoin can no longer continue safely and will quit.</source>
+        <translation>Error fatalis accidit.  AkiCoin nondum pergere tute potest, et exibit.</translation>
     </message>
 </context>
 <context>
@@ -844,8 +844,8 @@ Inscriptio: %4
         <translation>Inserta inscriptio &quot;%1&quot; iam in libro inscriptionum est.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio Pfennig est.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AkiCoin address.</source>
+        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio AkiCoin est.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -882,12 +882,12 @@ Inscriptio: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
+        <source>AkiCoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Nucleus</translation>
+        <source>AkiCoin Core</source>
+        <translation>AkiCoin Nucleus</translation>
     </message>
     <message>
         <source>version</source>
@@ -933,15 +933,15 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
+        <source>Welcome to AkiCoin Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where AkiCoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>AkiCoin Core will download and store a copy of the AkiCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -953,8 +953,8 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1015,12 +1015,12 @@ Inscriptio: %4
         <translation>Solve &amp;mercedem transactionis</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>Pelle Pfennig per se postquam in systema inire.</translation>
+        <source>Automatically start AkiCoin after logging in to the system.</source>
+        <translation>Pelle AkiCoin per se postquam in systema inire.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
-        <translation>&amp;Pelle Pfennig cum inire systema</translation>
+        <source>&amp;Start AkiCoin on system login</source>
+        <translation>&amp;Pelle AkiCoin cum inire systema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1035,7 +1035,7 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
+        <source>Connect to the AkiCoin network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1095,8 +1095,8 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Pfennig in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the AkiCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis AkiCoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1151,8 +1151,8 @@ Inscriptio: %4
         <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Pfennig iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AkiCoin.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam AkiCoin iterum initiatum erit.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1163,8 +1163,8 @@ Inscriptio: %4
         <translation>Selige praedefinitam unitam subdivisionis monstrare in interfacie et quando nummos mittere</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>Num monstrare inscriptiones Pfennig in enumeratione transactionum.</translation>
+        <source>Whether to show AkiCoin addresses in the transaction list or not.</source>
+        <translation>Num monstrare inscriptiones AkiCoin in enumeratione transactionum.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1218,8 +1218,8 @@ Inscriptio: %4
         <translation>Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Pfennig postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AkiCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete AkiCoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1273,8 +1273,8 @@ Inscriptio: %4
         <translation>Tractatio URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
-        <translation>URI intellegi non posse!  Huius causa possit inscriptionem Pfennig non validam aut URI parametra maleformata.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AkiCoin address or malformed URI parameters.</source>
+        <translation>URI intellegi non posse!  Huius causa possit inscriptionem AkiCoin non validam aut URI parametra maleformata.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1285,8 +1285,8 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start pfennig: click-to-pay handler</source>
-        <translation>Pfennig incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start akicoin: click-to-pay handler</source>
+        <translation>AkiCoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1340,8 +1340,8 @@ Inscriptio: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1356,12 +1356,12 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>AkiCoin Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Insere inscriptionem Pfennig (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Insere inscriptionem AkiCoin (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1482,16 +1482,16 @@ Inscriptio: %4
         <translation>Debug catalogi plica</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de Pfennig debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the AkiCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de AkiCoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Vacuefac terminale</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>Bene ventio in terminale RPC de Pfennig.</translation>
+        <source>Welcome to the AkiCoin RPC console.</source>
+        <translation>Bene ventio in terminale RPC de AkiCoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1553,7 +1553,7 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AkiCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1866,7 +1866,7 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
+        <source>Warning: Invalid AkiCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1953,7 +1953,7 @@ Inscriptio: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the akicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AkiCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ Inscriptio: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
+        <source>AkiCoin Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2027,8 +2027,8 @@ Inscriptio: %4
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Pfennig a te possessa esse</translation>
+        <source>Sign the message to prove you own this AkiCoin address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem AkiCoin a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2055,8 +2055,8 @@ Inscriptio: %4
         <translation>Inscriptio qua nuntius signatus est (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Pfennig</translation>
+        <source>Verify the message to ensure it was signed with the specified AkiCoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione AkiCoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2067,8 +2067,8 @@ Inscriptio: %4
         <translation>Reconstitue omnes campos verificandi nuntii</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Insere inscriptionem Pfennig (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Insere inscriptionem AkiCoin (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2126,8 +2126,8 @@ Inscriptio: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig Nucleus</translation>
+        <source>AkiCoin Core</source>
+        <translation>AkiCoin Nucleus</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
@@ -2591,7 +2591,7 @@ Inscriptio: %4
     </message>
 </context>
 <context>
-    <name>pfennig-core</name>
+    <name>akicoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Usus:</translation>
@@ -2609,20 +2609,20 @@ Inscriptio: %4
         <translation>Optiones:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: pfennig.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: pfennig.conf)</translation>
+        <source>Specify configuration file (default: akicoin.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: akicoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: pfennigd.pid)</source>
-        <translation>Specifica pid plicam (praedefinitum: pfennig.pid)</translation>
+        <source>Specify pid file (default: akicoind.pid)</source>
+        <translation>Specifica pid plicam (praedefinitum: akicoin.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
         <translation>Specifica indicem datorum</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: P2PPORT vel testnet: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8000 or testnet: 18000)</source>
+        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: 8000 vel testnet: 18000)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2649,15 +2649,15 @@ Inscriptio: %4
         <translation>Error erat dum initians portam RPC %u pro auscultando in IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: RPCPORT vel testnet: 1RPCPORT)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
+        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: 8001 vel testnet: 18001)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Accipe terminalis et JSON-RPC mandata.</translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
+        <source>AkiCoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2676,24 +2676,24 @@ Inscriptio: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AkiCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
 %s
 Hortatur te hanc fortuitam tesseram uti:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (non est necesse te hanc tesseram meminisse)
 Nomen usoris et tessera eadem esse NON POSSUNT.
 Si plica non existit, eam crea cum permissionibus ut eius dominus tantum sinitur id legere.
 Quoque hortatur alertnotify constituere ut tu notificetur de problematibus;
-exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; admin@foo.com
+exempli gratia: alertnotify=echo %%s | mail -s &quot;AkiCoin Notificatio&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2765,7 +2765,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation>Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - nolite utere fodendo vel applicationibus mercatoriis</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. AkiCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2777,8 +2777,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation>Monitio: -paytxfee constitutum valde magnum!  Hoc est merces transactionis solves si mittis transactionem.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, Pfennig non proprie fungetur.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AkiCoin will not work properly.</source>
+        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, AkiCoin non proprie fungetur.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2813,7 +2813,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation>Conare recipere claves privatas de corrupto wallet.dat</translation>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
+        <source>AkiCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2833,7 +2833,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3021,7 +3021,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use pfennig-cli):</source>
+        <source>Usage (deprecated, use akicoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3057,7 +3057,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation>Importat frusta ab externa plica blk000??.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. AkiCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3121,7 +3121,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3141,11 +3141,11 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>Optiones SSL: (vide vici de Pfennig pro instructionibus SSL configurationis)</translation>
+        <source>SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
+        <translation>Optiones SSL: (vide vici de AkiCoin pro instructionibus SSL configurationis)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to AkiCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3181,7 +3181,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation>Specifica tempumfati conexionis in millisecundis (praedefinitum: 5000)</translation>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
+        <source>Start AkiCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3297,12 +3297,12 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Pfennig Notificatio&quot; a
         <translation>Error legendi wallet.dat: Cassidile corruptum</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio Pfennig</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AkiCoin</source>
+        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio AkiCoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>Cassidili necesse erat rescribi: Repelle Pfennig ut compleas</translation>
+        <source>Wallet needed to be rewritten: restart AkiCoin to complete</source>
+        <translation>Cassidili necesse erat rescribi: Repelle AkiCoin ut compleas</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

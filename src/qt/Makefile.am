@@ -5,7 +5,7 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt/forms \
   $(PROTOBUF_CFLAGS) \
   $(QR_CFLAGS)
-bin_PROGRAMS = pfennig-qt
+bin_PROGRAMS = akicoin-qt
 noinst_LIBRARIES = libbitmarkqt.a
 SUBDIRS = . $(BUILD_TEST_QT)
 DIST_SUBDIRS = . test
@@ -336,23 +336,23 @@ BUILT_SOURCES = $(nodist_libbitmarkqt_a_SOURCES)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# pfennig-qt binary #
-pfennig_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
+# akicoin-qt binary #
+akicoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-pfennig_qt_SOURCES = bitmark.cpp
+akicoin_qt_SOURCES = bitmark.cpp
 if TARGET_DARWIN
-  pfennig_qt_SOURCES += $(BITMARK_MM)
+  akicoin_qt_SOURCES += $(BITMARK_MM)
 endif
 if TARGET_WINDOWS
-  pfennig_qt_SOURCES += $(BITMARK_RC)
+  akicoin_qt_SOURCES += $(BITMARK_RC)
 endif
-pfennig_qt_LDADD = libbitmarkqt.a $(LIBBITMARK_SERVER)
+akicoin_qt_LDADD = libbitmarkqt.a $(LIBBITMARK_SERVER)
 if ENABLE_WALLET
-pfennig_qt_LDADD += $(LIBBITMARK_WALLET)
+akicoin_qt_LDADD += $(LIBBITMARK_WALLET)
 endif
-pfennig_qt_LDADD += $(LIBBITMARK_CLI) $(LIBBITMARK_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
+akicoin_qt_LDADD += $(LIBBITMARK_CLI) $(LIBBITMARK_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS)
-pfennig_qt_LDFLAGS = $(QT_LDFLAGS)
+akicoin_qt_LDFLAGS = $(QT_LDFLAGS)
 
 # forms/foo.h -> forms/ui_foo.h
 QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))

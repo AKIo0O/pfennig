@@ -86,14 +86,14 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to pfennigd / RPC client
-            std::string strUsage = _("Pfennig Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to akicoind / RPC client
+            std::string strUsage = _("AkiCoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  pfennigd [options]                     " + _("Start Pfennig Core Daemon") + "\n" +
-                _("Usage (deprecated, use pfennig-cli):") + "\n" +
-                  "  pfennigd [options] <command> [params]  " + _("Send command to Pfennig Core") + "\n" +
-                  "  pfennigd [options] help                " + _("List commands") + "\n" +
-                  "  pfennigd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  akicoind [options]                     " + _("Start AkiCoin Core Daemon") + "\n" +
+                _("Usage (deprecated, use akicoin-cli):") + "\n" +
+                  "  akicoind [options] <command> [params]  " + _("Send command to AkiCoin Core") + "\n" +
+                  "  akicoind [options] help                " + _("List commands") + "\n" +
+                  "  akicoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITMARKD);
             strUsage += "\n" + HelpMessageCli(false);
@@ -117,7 +117,7 @@ bool AppInit(int argc, char* argv[])
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Pfennig server starting\n");
+            fprintf(stdout, "AkiCoin server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -177,7 +177,7 @@ int main(int argc, char* argv[])
 
     bool fRet = false;
 
-    // Connect pfennigd signal handlers
+    // Connect akicoind signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

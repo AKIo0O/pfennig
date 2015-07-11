@@ -55,18 +55,18 @@ def sync_mempools(rpc_connections):
         time.sleep(1)
         
 
-pfennigd_processes = []
+akicoind_processes = []
 
 def initialize_chain(test_dir):
     """
     Create (or copy from cache) a 200-block-long chain and
     4 wallets.
-    pfennigd and pfennig-cli must be in search path.
+    akicoind and akicoin-cli must be in search path.
     """
 
     if not os.path.isdir(os.path.join("cache", "node0")):
         devnull = open("/dev/null", "w+")
-        # Create cache directories, run pfennigds:
+        # Create cache directories, run akicoinds:
         for i in range(4):
             datadir = os.path.join("cache", "node"+str(i))
             os.makedirs(datadir)
@@ -76,11 +76,11 @@ def initialize_chain(test_dir):
                 f.write("rpcpassword=rt\n");
                 f.write("port="+str(START_P2P_PORT+i)+"\n");
                 f.write("rpcport="+str(START_RPC_PORT+i)+"\n");
-            args = [ "pfennigd", "-keypool=1", "-datadir="+datadir ]
+            args = [ "akicoind", "-keypool=1", "-datadir="+datadir ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(START_P2P_PORT))
-            pfennigd_processes.append(subprocess.Popen(args))
-            subprocess.check_call([ "pfennig-cli", "-datadir="+datadir,
+            akicoind_processes.append(subprocess.Popen(args))
+            subprocess.check_call([ "akicoin-cli", "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
         devnull.close()
         rpcs = []
@@ -103,7 +103,7 @@ def initialize_chain(test_dir):
 
         # Shut them down, and remove debug.logs:
         stop_nodes(rpcs)
-        wait_pfennigds()
+        wait_akicoinds()
         for i in range(4):
             os.remove(debug_log("cache", i))
 
@@ -113,13 +113,13 @@ def initialize_chain(test_dir):
         shutil.copytree(from_dir, to_dir)
 
 def start_nodes(num_nodes, dir):
-    # Start pfennigds, and wait for RPC interface to be up and running:
+    # Start akicoinds, and wait for RPC interface to be up and running:
     devnull = open("/dev/null", "w+")
     for i in range(num_nodes):
         datadir = os.path.join(dir, "node"+str(i))
-        args = [ "pfennigd", "-datadir="+datadir ]
-        pfennigd_processes.append(subprocess.Popen(args))
-        subprocess.check_call([ "pfennig-cli", "-datadir="+datadir,
+        args = [ "akicoind", "-datadir="+datadir ]
+        akicoind_processes.append(subprocess.Popen(args))
+        subprocess.check_call([ "akicoin-cli", "-datadir="+datadir,
                                   "-rpcwait", "getblockcount"], stdout=devnull)
     devnull.close()
     # Create&return JSON-RPC connections
@@ -137,11 +137,11 @@ def stop_nodes(nodes):
         nodes[i].stop()
     del nodes[:] # Emptying array closes connections as a side effect
 
-def wait_pfennigds():
-    # Wait for all pfennigds to cleanly exit
-    for pfennigd in pfennigd_processes:
-        pfennigd.wait()
-    del pfennigd_processes[:]
+def wait_akicoinds():
+    # Wait for all akicoinds to cleanly exit
+    for akicoind in akicoind_processes:
+        akicoind.wait()
+    del akicoind_processes[:]
 
 def connect_nodes(from_connection, node_num):
     ip_port = "127.0.0.1:"+str(START_P2P_PORT+node_num)

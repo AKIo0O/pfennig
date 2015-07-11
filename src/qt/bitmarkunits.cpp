@@ -50,9 +50,9 @@ QString BitmarkUnits::description(int unit)
 {
     switch(unit)
     {
-    case PFG: return QString("Pfennigs");
-    case mPFG: return QString("mPfennigs (1 / 1,000)");
-    case uPFG: return QString("uPfennigs (1 / 1,000,000)");
+    case PFG: return QString("AkiCoins");
+    case mPFG: return QString("mAkiCoins (1 / 1,000)");
+    case uPFG: return QString("uAkiCoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

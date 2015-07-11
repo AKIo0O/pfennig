@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
-        <translation>Tietoja Pfennig Core</translation>
+        <source>About AkiCoin Core</source>
+        <translation>Tietoja AkiCoin Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Pfennig Core&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;AkiCoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AkiCoin Core&lt;/b&gt; versio</translation>
     </message>
     <message>
         <source>
@@ -30,7 +30,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pfennig Core kehittäjät</translation>
+        <translation>AkiCoin Core kehittäjät</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -104,12 +104,12 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Vastaanottava osoite</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Pfennig osoitteita maksujen lähetykseen. Tarkista aina rahan määrä ja vastaanottajan osoite ennenkuin lähetät kolikkoja.</translation>
+        <source>These are your AkiCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun AkiCoin osoitteita maksujen lähetykseen. Tarkista aina rahan määrä ja vastaanottajan osoite ennenkuin lähetät kolikkoja.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Pfennig-osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin rahansiirrolle</translation>
+        <source>These are your AkiCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun AkiCoin-osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin rahansiirrolle</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -206,8 +206,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI PfennigISI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AkiCoinS&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI AkiCoinISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -226,8 +226,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Lompakko salattu</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
-        <translation>Pfennig sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+        <source>AkiCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your akicoins from being stolen by malware infecting your computer.</source>
+        <translation>AkiCoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -259,7 +259,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>AkiCoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Allekirjoita viesti...</translation>
@@ -297,8 +297,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Sulje ohjelma</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
-        <translation>Näytä tietoa Pfennig-projektista</translation>
+        <source>Show information about AkiCoin</source>
+        <translation>Näytä tietoa AkiCoin-projektista</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -345,12 +345,12 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
-        <translation>Lähetä kolikoita Pfennig-osoitteeseen</translation>
+        <source>Send coins to a AkiCoin address</source>
+        <translation>Lähetä kolikoita AkiCoin-osoitteeseen</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Muuta Pfennigin konfiguraatioasetuksia</translation>
+        <source>Modify configuration options for AkiCoin</source>
+        <translation>Muuta AkiCoinin konfiguraatioasetuksia</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -373,8 +373,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -394,19 +394,19 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Pfennig-ikkuna</translation>
+        <translation>Näytä tai piilota AkiCoin-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Pfennig -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your AkiCoin addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla AkiCoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Pfennig -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified AkiCoin addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä AkiCoin -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -429,16 +429,16 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig-ydin</translation>
+        <source>AkiCoin Core</source>
+        <translation>AkiCoin-ydin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pfennig: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja pfennig: URIt)</translation>
+        <source>Request payments (generates QR codes and akicoin: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja akicoin: URIt)</translation>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
-        <translation>&amp;Tietoja Pfennig Core</translation>
+        <source>&amp;About AkiCoin Core</source>
+        <translation>&amp;Tietoja AkiCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -449,24 +449,24 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a pfennig: URI or payment request</source>
-        <translation>Avaa pfennig: URI tai maksupyyntö</translation>
+        <source>Open a akicoin: URI or payment request</source>
+        <translation>Avaa akicoin: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
-        <translation>Näytä Pfennig Core ohjeet saadaksesi listan mahdollisista Pfennigin komentorivivalinnoista</translation>
+        <source>Show the AkiCoin Core help message to get a list with possible AkiCoin command-line options</source>
+        <translation>Näytä AkiCoin Core ohjeet saadaksesi listan mahdollisista AkiCoinin komentorivivalinnoista</translation>
     </message>
     <message>
-        <source>Pfennig client</source>
-        <translation>Pfennig-asiakas</translation>
+        <source>AkiCoin client</source>
+        <translation>AkiCoin-asiakas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
-        <translation><numerusform>%n aktiivinen yhteys Pfennig-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Pfennig-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to AkiCoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys AkiCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä AkiCoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -560,8 +560,8 @@ Osoite: %4</translation>
         <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;lukittuna&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. Pfennig ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. AkiCoin can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. AkiCoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -845,8 +845,8 @@ Osoite: %4</translation>
         <translation>Osoite &quot;%1&quot; on jo osoitekirjassa.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>Antamasi osoite &quot;%1&quot; ei ole validi Pfennig-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AkiCoin address.</source>
+        <translation>Antamasi osoite &quot;%1&quot; ei ole validi AkiCoin-osoite.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,12 +883,12 @@ Osoite: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
-        <translation>Pfennig Core - Kometorivivalinnat</translation>
+        <source>AkiCoin Core - Command-line options</source>
+        <translation>AkiCoin Core - Kometorivivalinnat</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig-ydin</translation>
+        <source>AkiCoin Core</source>
+        <translation>AkiCoin-ydin</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,16 +934,16 @@ Osoite: %4</translation>
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
-        <translation>Tervetuloa Pfennig Core</translation>
+        <source>Welcome to AkiCoin Core.</source>
+        <translation>Tervetuloa AkiCoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
-        <translation>Tämän on ensimmäinen kerta kun Pfennig Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+        <source>As this is the first time the program is launched, you can choose where AkiCoin Core will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun AkiCoin Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pfennig Core lataa ja tallentaa kopion Pfennigin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>AkiCoin Core will download and store a copy of the AkiCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>AkiCoin Core lataa ja tallentaa kopion AkiCoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -954,8 +954,8 @@ Osoite: %4</translation>
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1016,12 +1016,12 @@ Osoite: %4</translation>
         <translation>Maksa rahansiirtopalkkio</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>Käynnistä Pfennig kirjautumisen yhteydessä.</translation>
+        <source>Automatically start AkiCoin after logging in to the system.</source>
+        <translation>Käynnistä AkiCoin kirjautumisen yhteydessä.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
-        <translation>&amp;Käynnistä Pfennig kirjautumisen yhteydessä</translation>
+        <source>&amp;Start AkiCoin on system login</source>
+        <translation>&amp;Käynnistä AkiCoin kirjautumisen yhteydessä</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1036,8 +1036,8 @@ Osoite: %4</translation>
         <translation>Script &amp;varmistuksen threadien määrä</translation>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
-        <translation>Yhdistä Pfennig-verkkoon SOCKS proxyn kautta.</translation>
+        <source>Connect to the AkiCoin network through a SOCKS proxy.</source>
+        <translation>Yhdistä AkiCoin-verkkoon SOCKS proxyn kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@ Osoite: %4</translation>
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Pfennig-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the AkiCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa AkiCoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1137,7 +1137,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa vain pienentää Pfennig-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa vain pienentää AkiCoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -1152,20 +1152,20 @@ Osoite: %4</translation>
         <translation>&amp;Käyttöliittymän kieli</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun Pfennig käynnistetään.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AkiCoin.</source>
+        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun AkiCoin käynnistetään.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona pfennig-määrät näytetään</translation>
+        <translation>Yksikkö jona akicoin-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti pfennig-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti akicoin-määrien näyttämiseen.</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>Näytetäänkö Pfennig-osoitteet rahansiirrot listassa vai ei.</translation>
+        <source>Whether to show AkiCoin addresses in the transaction list or not.</source>
+        <translation>Näytetäänkö AkiCoin-osoitteet rahansiirrot listassa vai ei.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1219,8 +1219,8 @@ Osoite: %4</translation>
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Pfennig-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AkiCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu AkiCoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1256,7 +1256,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Pfennigien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien AkiCoinien määrä</translation>
     </message>
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
@@ -1274,8 +1274,8 @@ Osoite: %4</translation>
         <translation>URI käsittely</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Pfennig-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AkiCoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta AkiCoin-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1286,8 +1286,8 @@ Osoite: %4</translation>
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start pfennig: click-to-pay handler</source>
-        <translation>Ei voida käynnistää pfennig: klikkaa-maksu käsittelijää</translation>
+        <source>Cannot start akicoin: click-to-pay handler</source>
+        <translation>Ei voida käynnistää akicoin: klikkaa-maksu käsittelijää</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1341,8 +1341,8 @@ Osoite: %4</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1357,12 +1357,12 @@ Osoite: %4</translation>
         <translation>Virhe: Virheellinen yhdistelmä -regtest ja -testnet.</translation>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
-        <translation>Pfennig Core ei ole vielä sulkeutunut turvallisesti...</translation>
+        <source>AkiCoin Core didn&apos;t yet exit safely...</source>
+        <translation>AkiCoin Core ei ole vielä sulkeutunut turvallisesti...</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Anna Pfennig-osoite (esim. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Anna AkiCoin-osoite (esim. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1483,7 +1483,7 @@ Osoite: %4</translation>
         <translation>Debug lokitiedosto</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the AkiCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa lokitiedosto nykyisestä data-kansiosta. Tämä voi viedä useamman sekunnin, jos lokitiedosto on iso.</translation>
     </message>
     <message>
@@ -1491,8 +1491,8 @@ Osoite: %4</translation>
         <translation>Tyhjennä konsoli</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>Tervetuloa Pfennig RPC konsoliin.</translation>
+        <source>Welcome to the AkiCoin RPC console.</source>
+        <translation>Tervetuloa AkiCoin RPC konsoliin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1554,8 +1554,8 @@ Osoite: %4</translation>
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Pfennig-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AkiCoin network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä AkiCoin-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1704,7 +1704,7 @@ Osoite: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Pfennigeja</translation>
+        <translation>Lähetä AkiCoineja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1792,7 +1792,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Hyväksy Pfennigien lähettäminen</translation>
+        <translation>Hyväksy AkiCoinien lähettäminen</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1844,7 +1844,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 Pfennigia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 AkiCoinia.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -1867,8 +1867,8 @@ Osoite: %4</translation>
         <translation>Rahansiirto hylättiin! Tämä saattaa tapahtua jos lompakossa olevat kolikot on jo kulutettu, kuten jos käytät kopioita wallet.dat tiedostosta ja kolikot oli jos käytetty mutta ei merkattu täällä.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
-        <translation>Varoitus: Virheellinen Pfennig osoite</translation>
+        <source>Warning: Invalid AkiCoin address</source>
+        <translation>Varoitus: Virheellinen AkiCoin osoite</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1907,7 +1907,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>The address to send the payment to (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Osoite, johon Pfennigit lähetetään  (esim. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <translation>Osoite, johon AkiCoinit lähetetään  (esim. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1954,8 +1954,8 @@ Osoite: %4</translation>
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
-        <translation>Viesti joka liitettiin pfennig: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Pfennig-verkkoon.</translation>
+        <source>A message that was attached to the akicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AkiCoin network.</source>
+        <translation>Viesti joka liitettiin akicoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä AkiCoin-verkkoon.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1973,8 +1973,8 @@ Osoite: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
-        <translation>Pfennig core sulkeutuu...</translation>
+        <source>AkiCoin Core is shutting down...</source>
+        <translation>AkiCoin core sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2028,8 +2028,8 @@ Osoite: %4</translation>
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Pfennig-osoitteen</translation>
+        <source>Sign the message to prove you own this AkiCoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän AkiCoin-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2056,8 +2056,8 @@ Osoite: %4</translation>
         <translation>Osoite, jolla viesti allekirjoitettiin (esimerkiksi bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Pfennig-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified AkiCoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä AkiCoin-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2068,8 +2068,8 @@ Osoite: %4</translation>
         <translation>Tyhjennä kaikki varmista-viesti-kentät</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Anna Pfennig-osoite (esim. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Anna AkiCoin-osoite (esim. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2127,12 +2127,12 @@ Osoite: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Pfennig-ydin</translation>
+        <source>AkiCoin Core</source>
+        <translation>AkiCoin-ydin</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Pfennig Core kehittäjät</translation>
+        <translation>AkiCoin Core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2392,7 +2392,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Rahansiirron kohteen Pfennig-osoite</translation>
+        <translation>Rahansiirron kohteen AkiCoin-osoite</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2553,7 +2553,7 @@ Osoite: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Pfennigeja</translation>
+        <translation>Lähetä AkiCoineja</translation>
     </message>
 </context>
 <context>
@@ -2592,7 +2592,7 @@ Osoite: %4</translation>
     </message>
 </context>
 <context>
-    <name>pfennig-core</name>
+    <name>akicoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Käyttö:</translation>
@@ -2610,20 +2610,20 @@ Osoite: %4</translation>
         <translation>Asetukset:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: pfennig.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: pfennig.conf)</translation>
+        <source>Specify configuration file (default: akicoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: akicoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: pfennigd.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: pfennig.pid)</translation>
+        <source>Specify pid file (default: akicoind.pid)</source>
+        <translation>Määritä pid-tiedosto (oletus: akicoin.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
         <translation>Määritä data-hakemisto</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>Kuuntele yhteyksiä portista &lt;port&gt; (oletus: P2PPORT tai testnet: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8000 or testnet: 18000)</source>
+        <translation>Kuuntele yhteyksiä portista &lt;port&gt; (oletus: 8000 tai testnet: 18000)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2650,16 +2650,16 @@ Osoite: %4</translation>
         <translation>Virhe valmisteltaessa RPC-portin %u avaamista kuunneltavaksi: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Kuuntele JSON-RPC -yhteyksiä portista &lt;port&gt; (oletus: RPCPORT or testnet: 1RPCPORT)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
+        <translation>Kuuntele JSON-RPC -yhteyksiä portista &lt;port&gt; (oletus: 8001 or testnet: 18001)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Hyväksy merkkipohjaiset- ja JSON-RPC-käskyt</translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
-        <translation>Pfennig Core RPC asiakasversio</translation>
+        <source>AkiCoin Core RPC client version</source>
+        <translation>AkiCoin Core RPC asiakasversio</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2677,24 +2677,24 @@ Osoite: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AkiCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun tulee asettaa rpcpassword asetustietostossa:
 %s
 Suositellaan että käytät allaolevaa satunnaista salasanaa:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (sinun ei tarvitse muistaa tätä salasanaa)
 Tämän tunnuksen ja salasanan TULEE OLLA sama.
 Jos tiedostoa ei ole, luo se vain omistajan-luku-oikeudella.
 Suositellaan asettaa alertnotify jotta saat tietoa ongelmista;
-esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+esimerkiksi: alertnotify=echo %%s | mail -s &quot;AkiCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2766,8 +2766,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Pfennig Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. AkiCoin Core is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. AkiCoin Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2778,8 +2778,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Varoitus: -paytxfee on asetettu erittäin korkeaksi! Tämä on maksukulu jonka tulet maksamaan kun lähetät siirron.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! Pfennig ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AkiCoin will not work properly.</source>
+        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! AkiCoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2814,8 +2814,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Yritetään palauttaa privaattiavaimia korruptoituneesta wallet.dat -lompakkotiedostosta</translation>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
-        <translation>Pfennig Core taustapalvelin</translation>
+        <source>AkiCoin Core Daemon</source>
+        <translation>AkiCoin Core taustapalvelin</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2834,8 +2834,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Yhdistä SOCKS proxin kautta</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Yhdistä JSON-RPC portissa &lt;port&gt; (oletus: RPCPORT tai testnet: 1RPCPORT)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
+        <translation>Yhdistä JSON-RPC portissa &lt;port&gt; (oletus: 8001 tai testnet: 18001)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3022,8 +3022,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Tämä on tarkoitettu regression testityökaluille ja ohjelman kehittämiseen.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use pfennig-cli):</source>
-        <translation>Käyttö (vanhentunut, käytä pfennig-cli):</translation>
+        <source>Usage (deprecated, use akicoin-cli):</source>
+        <translation>Käyttö (vanhentunut, käytä akicoin-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3058,8 +3058,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Tuodaan lohkoja ulkoisesta blk000??.dat tiedostosta</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
-        <translation>Ei voida lukita data-hakemistoa %s. Pfennig Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. AkiCoin Core is probably already running.</source>
+        <translation>Ei voida lukita data-hakemistoa %s. AkiCoin Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3122,8 +3122,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Tulosta lohkopuu käynnistyksessä (oletus: 0)</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL valinnat: (katso Pfennig Wikistä SSL-asennuksen ohjeet)</translation>
+        <source>RPC SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL valinnat: (katso AkiCoin Wikistä SSL-asennuksen ohjeet)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3142,12 +3142,12 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Aja threadi jossa tallennetaan lompakko ajoittain (oletus: 1)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>SSL asetukset (katso Pfennig Wikistä tarkemmat SSL ohjeet)</translation>
+        <source>SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL asetukset (katso AkiCoin Wikistä tarkemmat SSL ohjeet)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
-        <translation>Lähetä komento Pfennig Coreen</translation>
+        <source>Send command to AkiCoin Core</source>
+        <translation>Lähetä komento AkiCoin Coreen</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3182,8 +3182,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Määritä yhteyden aikakataisu millisekunneissa (vakioasetus: 5000)</translation>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
-        <translation>Käynnistä Pfennig Core taustapalvelin</translation>
+        <source>Start AkiCoin Core Daemon</source>
+        <translation>Käynnistä AkiCoin Core taustapalvelin</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3298,12 +3298,12 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko vioittunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Pfennigista</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AkiCoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version AkiCoinista</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Pfennig uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart AkiCoin to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä AkiCoin uudelleen</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

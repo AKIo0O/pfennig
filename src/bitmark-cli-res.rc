@@ -17,14 +17,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Pfennig"
-            VALUE "FileDescription",    "Pfennig-cli (OSS RPC client for Pfennig)"
+            VALUE "CompanyName",        "AkiCoin"
+            VALUE "FileDescription",    "AkiCoin-cli (OSS RPC client for AkiCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pfennig-cli"
+            VALUE "InternalName",       "akicoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pfennig-cli.exe"
-            VALUE "ProductName",        "Pfennig-cli"
+            VALUE "OriginalFilename",   "akicoin-cli.exe"
+            VALUE "ProductName",        "AkiCoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -14,24 +14,24 @@ The following are some helpful notes on how to run Bitmark on your native platfo
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Pfennig-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run AkiCoin-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/pfennig-qt (GUI, 32-bit) or bin/32/pfennigd (headless, 32-bit)
-- bin/64/pfennig-qt (GUI, 64-bit) or bin/64/pfennigd (headless, 64-bit)
+- bin/32/akicoin-qt (GUI, 32-bit) or bin/32/akicoind (headless, 32-bit)
+- bin/64/akicoin-qt (GUI, 64-bit) or bin/64/akicoind (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run pfennig-qt.exe.
+Unpack the files into a directory, and then run akicoin-qt.exe.
 
 ### OSX
 
-Drag Pfennig-Qt to your applications folder, and then run Pfennig-Qt.
+Drag AkiCoin-Qt to your applications folder, and then run AkiCoin-Qt.
 
 ### Need Help?
 

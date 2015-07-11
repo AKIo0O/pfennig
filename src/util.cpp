@@ -948,7 +948,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.bitmark
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Pfennig";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "AkiCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -960,10 +960,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Pfennig";
+    return pathRet / "AkiCoin";
 #else
     // Unix
-    return pathRet / ".pfennig";
+    return pathRet / ".akicoin";
 #endif
 #endif
 }
@@ -1045,7 +1045,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "pfennigd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "akicoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1278,7 +1278,7 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Pfennig will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong AkiCoin will not work properly.");
                     strMiscWarning = strMessage;
                     LogPrintf("*** %s\n", strMessage);
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);

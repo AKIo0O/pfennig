@@ -89,7 +89,7 @@ BitmarkAddressCheckValidator::BitmarkAddressCheckValidator(QObject *parent) :
 QValidator::State BitmarkAddressCheckValidator::validate(QString &input, int &pos) const
 {
     Q_UNUSED(pos);
-    // Validate the passed Pfennig address
+    // Validate the passed AkiCoin address
     CBitmarkAddress addr(input.toStdString());
     if (addr.IsValid())
         return QValidator::Acceptable;

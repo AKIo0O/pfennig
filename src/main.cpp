@@ -75,7 +75,7 @@ void EraseOrphansFor(NodeId peer);
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Pfennig Signed Message:\n";
+const string strMessageMagic = "AkiCoin Signed Message:\n";
 
 // Internal stuff
 namespace {

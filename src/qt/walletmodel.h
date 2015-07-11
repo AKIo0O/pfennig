@@ -93,7 +93,7 @@ public:
     )
 };
 
-/** Interface to Pfennig wallet from Qt view code. */
+/** Interface to AkiCoin wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT

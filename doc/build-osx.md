@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build pfennigd(headless client) for OSX.
+This guide will show you how to build akicoind(headless client) for OSX.
 
 Notes
 -----
@@ -52,14 +52,14 @@ Optional: install Qt4
 
     sudo port install qt4-mac qrencode protobuf-cpp
 
-### Building `pfennigd`
+### Building `akicoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
         git clone git@github.com:project-bitmark/bitmark.git bitmark
         cd bitmark
 
-2.  Build pfennigd (and Pfennig-Qt, if configured):
+2.  Build akicoind (and AkiCoin-Qt, if configured):
 
         ./autogen.sh
         ./configure
@@ -90,14 +90,14 @@ Rerunning "openssl version" should now return the correct version. If it
 doesn't, make sure `/usr/local/bin` comes before `/usr/bin` in your
 PATH. 
 
-### Building `pfennigd`
+### Building `akicoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
         git clone https://github.com/project-bitmark/bitmark.git
         cd bitmark
 
-2.  Build pfennigd:
+2.  Build akicoind:
 
         ./autogen.sh
         ./configure
@@ -109,11 +109,11 @@ PATH.
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `pfennigd` for your own use.
+You can ignore this section if you are building `akicoind` for your own use.
 
-pfennigd/pfennig-cli binaries are not included in the Pfennig-Qt.app bundle.
+akicoind/akicoin-cli binaries are not included in the AkiCoin-Qt.app bundle.
 
-If you are building `pfennigd` or `Pfennig-Qt` for others, your build machine should be set up
+If you are building `akicoind` or `AkiCoin-Qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -134,16 +134,16 @@ As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
 Download `http://gavinandresen-bitmark.s3.amazonaws.com/boost_macports_fix.zip`
 for a fix.
 
-Once dependencies are compiled, see release-process.md for how the Pfennig-Qt.app
+Once dependencies are compiled, see release-process.md for how the AkiCoin-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./pfennigd`, provided that you are still in the `src`
+It's now available at `./akicoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./pfennigd` to get the filename where it should be put, or just try these
+Run `./akicoind` to get the filename where it should be put, or just try these
 commands:
 
     echo -e "rpcuser=bitmarkrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Bitmark/bitmark.conf"
@@ -157,6 +157,6 @@ you can monitor its process by looking at the debug.log file, like this:
 
 Other commands:
 
-    ./pfennigd -daemon # to start the bitmark daemon.
-    ./pfennig-cli --help  # for a list of command-line options.
-    ./pfennig-cli help    # When the daemon is running, to get a list of RPC commands
+    ./akicoind -daemon # to start the bitmark daemon.
+    ./akicoin-cli --help  # for a list of command-line options.
+    ./akicoin-cli help    # When the daemon is running, to get a list of RPC commands

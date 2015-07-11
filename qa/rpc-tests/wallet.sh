@@ -13,8 +13,8 @@ fi
 
 set -f
 
-BITMARKD=${1}/pfennigd
-CLI=${1}/pfennig-cli
+BITMARKD=${1}/akicoind
+CLI=${1}/akicoin-cli
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"

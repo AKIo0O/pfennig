@@ -17,14 +17,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Pfennig"
-            VALUE "FileDescription",    "Pfennigd (OSS daemon/client for Pfennig)"
+            VALUE "CompanyName",        "AkiCoin"
+            VALUE "FileDescription",    "AkiCoind (OSS daemon/client for AkiCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pfennigd"
+            VALUE "InternalName",       "akicoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pfennigd.exe"
-            VALUE "ProductName",        "Pfennigd"
+            VALUE "OriginalFilename",   "akicoind.exe"
+            VALUE "ProductName",        "AkiCoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

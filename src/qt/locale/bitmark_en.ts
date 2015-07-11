@@ -5,12 +5,12 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Pfennig Core</source>
+        <source>About AkiCoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;AkiCoin Core&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -129,12 +129,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your AkiCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your AkiCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your AkiCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -255,8 +255,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AkiCoinS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AkiCoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -282,8 +282,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
-        <translation>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</translation>
+        <source>AkiCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your akicoins from being stolen by malware infecting your computer.</source>
+        <translation>AkiCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your akicoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -328,9 +328,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>AkiCoinGUI</name>
     <message>
-        <location filename="../pfenniggui.cpp" line="+294"/>
+        <location filename="../akicoingui.cpp" line="+294"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -376,8 +376,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about Pfennig</source>
-        <translation>Show information about Pfennig</translation>
+        <source>Show information about AkiCoin</source>
+        <translation>Show information about AkiCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -437,13 +437,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-405"/>
-        <source>Send coins to a Pfennig address</source>
-        <translation>Send coins to a Pfennig address</translation>
+        <source>Send coins to a AkiCoin address</source>
+        <translation>Send coins to a AkiCoin address</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Modify configuration options for Pfennig</translation>
+        <source>Modify configuration options for AkiCoin</source>
+        <translation>Modify configuration options for AkiCoin</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -472,8 +472,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+440"/>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <location line="-652"/>
@@ -508,13 +508,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
-        <translation>Sign messages with your Pfennig addresses to prove you own them</translation>
+        <source>Sign messages with your AkiCoin addresses to prove you own them</source>
+        <translation>Sign messages with your AkiCoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Pfennig addresses</translation>
+        <source>Verify messages to ensure they were signed with specified AkiCoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified AkiCoin addresses</translation>
     </message>
     <message>
         <location line="+48"/>
@@ -544,18 +544,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-400"/>
-        <source>Pfennig Core</source>
-        <translation type="unfinished">Pfennig Core</translation>
+        <source>AkiCoin Core</source>
+        <translation type="unfinished">AkiCoin Core</translation>
     </message>
     <message>
         <location line="+162"/>
-        <source>Request payments (generates QR codes and pfennig: URIs)</source>
+        <source>Request payments (generates QR codes and akicoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Pfennig Core</source>
+        <source>&amp;About AkiCoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -570,7 +570,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a pfennig: URI or payment request</source>
+        <source>Open a akicoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -580,21 +580,21 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <source>Show the AkiCoin Core help message to get a list with possible AkiCoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+159"/>
         <location line="+5"/>
-        <source>Pfennig client</source>
-        <translation>Pfennig client</translation>
+        <source>AkiCoin client</source>
+        <translation>AkiCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+142"/>
-        <source>%n active connection(s) to Pfennig network</source>
+        <source>%n active connection(s) to AkiCoin network</source>
         <translation>
-            <numerusform>%n active connection to Pfennig network</numerusform>
-            <numerusform>%n active connections to Pfennig network</numerusform>
+            <numerusform>%n active connection to AkiCoin network</numerusform>
+            <numerusform>%n active connections to AkiCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -724,9 +724,9 @@ Address: %4
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../pfennig.cpp" line="+447"/>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Pfennig can no longer continue safely and will quit.</translation>
+        <location filename="../akicoin.cpp" line="+447"/>
+        <source>A fatal error occurred. AkiCoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. AkiCoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1083,8 +1083,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Pfennig address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AkiCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid AkiCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1129,13 +1129,13 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Pfennig Core - Command-line options</source>
+        <source>AkiCoin Core - Command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>Pfennig Core</source>
-        <translation type="unfinished">Pfennig Core</translation>
+        <source>AkiCoin Core</source>
+        <translation type="unfinished">AkiCoin Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1192,17 +1192,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Pfennig Core.</source>
+        <source>Welcome to AkiCoin Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where AkiCoin Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>AkiCoin Core will download and store a copy of the AkiCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1217,8 +1217,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Pfennig</source>
-        <translation type="unfinished">Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation type="unfinished">AkiCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1293,13 +1293,13 @@ Address: %4
     </message>
     <message>
         <location line="-125"/>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>Automatically start Pfennig after logging in to the system.</translation>
+        <source>Automatically start AkiCoin after logging in to the system.</source>
+        <translation>Automatically start AkiCoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Pfennig on system login</source>
-        <translation>&amp;Start Pfennig on system login</translation>
+        <source>&amp;Start AkiCoin on system login</source>
+        <translation>&amp;Start AkiCoin on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1318,7 +1318,7 @@ Address: %4
     </message>
     <message>
         <location line="+160"/>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
+        <source>Connect to the AkiCoin network through a SOCKS proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1394,8 +1394,8 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the AkiCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the AkiCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1464,8 +1464,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Pfennig.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AkiCoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting AkiCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1479,8 +1479,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>Whether to show Pfennig addresses in the transaction list or not.</translation>
+        <source>Whether to show AkiCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show AkiCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AkiCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the AkiCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-238"/>
@@ -1619,8 +1619,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
-        <translation type="unfinished">URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AkiCoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI can not be parsed! This can be caused by an invalid AkiCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+96"/>
@@ -1639,7 +1639,7 @@ Address: %4
     </message>
     <message>
         <location line="-353"/>
-        <source>Cannot start pfennig: click-to-pay handler</source>
+        <source>Cannot start akicoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1706,11 +1706,11 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../pfennig.cpp" line="+71"/>
+        <location filename="../akicoin.cpp" line="+71"/>
         <location line="+7"/>
         <location line="+13"/>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -1729,13 +1729,13 @@ Address: %4
     </message>
     <message>
         <location line="+60"/>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>AkiCoin Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+89"/>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation type="unfinished">Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation type="unfinished">Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1897,8 +1897,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the AkiCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the AkiCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1907,8 +1907,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>Welcome to the Pfennig RPC console.</translation>
+        <source>Welcome to the AkiCoin RPC console.</source>
+        <translation>Welcome to the AkiCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1986,7 +1986,7 @@ Address: %4
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AkiCoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2382,7 +2382,7 @@ Address: %4
     </message>
     <message>
         <location line="+113"/>
-        <source>Warning: Invalid Pfennig address</source>
+        <source>Warning: Invalid AkiCoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2494,7 +2494,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the akicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AkiCoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2519,7 +2519,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+52"/>
-        <source>Pfennig Core is shutting down...</source>
+        <source>AkiCoin Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2589,8 +2589,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Pfennig address</source>
-        <translation>Sign the message to prove you own this Pfennig address</translation>
+        <source>Sign the message to prove you own this AkiCoin address</source>
+        <translation>Sign the message to prove you own this AkiCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2625,8 +2625,8 @@ Address: %4
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
-        <translation>Verify the message to ensure it was signed with the specified Pfennig address</translation>
+        <source>Verify the message to ensure it was signed with the specified AkiCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified AkiCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2640,8 +2640,8 @@ Address: %4
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+30"/>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2719,8 +2719,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+32"/>
-        <source>Pfennig Core</source>
-        <translation type="unfinished">Pfennig Core</translation>
+        <source>AkiCoin Core</source>
+        <translation type="unfinished">AkiCoin Core</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3318,9 +3318,9 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>pfennig-core</name>
+    <name>akicoin-core</name>
     <message>
-        <location filename="../pfennigstrings.cpp" line="+262"/>
+        <location filename="../akicoinstrings.cpp" line="+262"/>
         <source>Usage:</source>
         <translation>Usage:</translation>
     </message>
@@ -3341,13 +3341,13 @@ Address: %4
     </message>
     <message>
         <location line="+32"/>
-        <source>Specify configuration file (default: pfennig.conf)</source>
-        <translation>Specify configuration file (default: pfennig.conf)</translation>
+        <source>Specify configuration file (default: akicoin.conf)</source>
+        <translation>Specify configuration file (default: akicoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: pfennigd.pid)</source>
-        <translation>Specify pid file (default: pfennigd.pid)</translation>
+        <source>Specify pid file (default: akicoind.pid)</source>
+        <translation>Specify pid file (default: akicoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3356,8 +3356,8 @@ Address: %4
     </message>
     <message>
         <location line="-46"/>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8000 or testnet: 18000)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 8000 or testnet: 18000)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -3391,8 +3391,8 @@ Address: %4
     </message>
     <message>
         <location line="+50"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 8001 or testnet: 18001)</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3401,7 +3401,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Pfennig Core RPC client version</source>
+        <source>AkiCoin Core RPC client version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3424,24 +3424,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AkiCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AkiCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3531,7 +3531,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. AkiCoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3546,8 +3546,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AkiCoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AkiCoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3591,7 +3591,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Pfennig Core Daemon</source>
+        <source>AkiCoin Core Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3616,7 +3616,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3851,7 +3851,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+10"/>
-        <source>Usage (deprecated, use pfennig-cli):</source>
+        <source>Usage (deprecated, use akicoin-cli):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3896,7 +3896,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-150"/>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. AkiCoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3976,7 +3976,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4001,12 +4001,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+2"/>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Pfennig Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the AkiCoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to AkiCoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4051,7 +4051,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+6"/>
-        <source>Start Pfennig Core Daemon</source>
+        <source>Start AkiCoin Core Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4196,13 +4196,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Pfennig</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AkiCoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of AkiCoin</translation>
     </message>
     <message>
         <location line="+113"/>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>Wallet needed to be rewritten: restart Pfennig to complete</translation>
+        <source>Wallet needed to be rewritten: restart AkiCoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart AkiCoin to complete</translation>
     </message>
     <message>
         <location line="-115"/>

@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Pfennig Core</source>
-        <translation>Acerca del Núcleo de Pfennig</translation>
+        <source>About AkiCoin Core</source>
+        <translation>Acerca del Núcleo de AkiCoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Pfennig Core&lt;/b&gt; version</source>
-        <translation>Versión del &lt;b&gt;Núcleo de Pfennig&lt;b&gt;</translation>
+        <source>&lt;b&gt;AkiCoin Core&lt;/b&gt; version</source>
+        <translation>Versión del &lt;b&gt;Núcleo de AkiCoin&lt;b&gt;</translation>
     </message>
     <message>
         <source>
@@ -32,7 +32,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Los desarrolladores del Núcleo de Pfennig</translation>
+        <translation>Los desarrolladores del Núcleo de AkiCoin</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -106,12 +106,12 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Recibiendo dirección</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Pfennig para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
+        <source>These are your AkiCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones AkiCoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
     </message>
     <message>
-        <source>These are your Pfennig addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones de Pfennig para recibir pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your AkiCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones de AkiCoin para recibir pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -208,8 +208,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Confirmar cifrado de la cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PfennigS&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS PfennigS&lt;/b&gt;!&quot;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AkiCoinS&lt;/b&gt;!</source>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS AkiCoinS&lt;/b&gt;!&quot;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -228,8 +228,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Monedero cifrado</translation>
     </message>
     <message>
-        <source>Pfennig will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pfennigs from being stolen by malware infecting your computer.</source>
-        <translation>Pfennig se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus pfennigs de robo por malware que infecte su sistema.</translation>
+        <source>AkiCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your akicoins from being stolen by malware infecting your computer.</source>
+        <translation>AkiCoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus akicoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -261,7 +261,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
 </context>
 <context>
-    <name>PfennigGUI</name>
+    <name>AkiCoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje...</translation>
@@ -299,8 +299,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Salir de la aplicación</translation>
     </message>
     <message>
-        <source>Show information about Pfennig</source>
-        <translation>Mostrar información acerca de Pfennig</translation>
+        <source>Show information about AkiCoin</source>
+        <translation>Mostrar información acerca de AkiCoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -347,12 +347,12 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Pfennig address</source>
-        <translation>Enviar monedas a una dirección Pfennig</translation>
+        <source>Send coins to a AkiCoin address</source>
+        <translation>Enviar monedas a una dirección AkiCoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pfennig</source>
-        <translation>Modificar las opciones de configuración de Pfennig</translation>
+        <source>Modify configuration options for AkiCoin</source>
+        <translation>Modificar las opciones de configuración de AkiCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -375,8 +375,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -403,12 +403,12 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Pfennig addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Pfennig para demostrar la propiedad</translation>
+        <source>Sign messages with your AkiCoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones AkiCoin para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pfennig addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Pfennig concretas</translation>
+        <source>Verify messages to ensure they were signed with specified AkiCoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones AkiCoin concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -431,16 +431,16 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Núcleo de Pfennig</translation>
+        <source>AkiCoin Core</source>
+        <translation>Núcleo de AkiCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pfennig: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL&apos;s de Pfennig)</translation>
+        <source>Request payments (generates QR codes and akicoin: URIs)</source>
+        <translation>Solicitar pagos (genera codigo QR y URL&apos;s de AkiCoin)</translation>
     </message>
     <message>
-        <source>&amp;About Pfennig Core</source>
-        <translation>&amp;Acerca del Núcleo de Pfennig</translation>
+        <source>&amp;About AkiCoin Core</source>
+        <translation>&amp;Acerca del Núcleo de AkiCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -451,24 +451,24 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a pfennig: URI or payment request</source>
-        <translation>Abrir un pfennig: URI o petición de pago</translation>
+        <source>Open a akicoin: URI or payment request</source>
+        <translation>Abrir un akicoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opciones de linea de comando</translation>
     </message>
     <message>
-        <source>Show the Pfennig Core help message to get a list with possible Pfennig command-line options</source>
+        <source>Show the AkiCoin Core help message to get a list with possible AkiCoin command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig client</source>
-        <translation>Cliente Pfennig</translation>
+        <source>AkiCoin client</source>
+        <translation>Cliente AkiCoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pfennig network</source>
-        <translation><numerusform>%n conexión activa hacia la red Pfennig</numerusform><numerusform>%n conexiones activas hacia la red Pfennig</numerusform></translation>
+        <source>%n active connection(s) to AkiCoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red AkiCoin</numerusform><numerusform>%n conexiones activas hacia la red AkiCoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -563,8 +563,8 @@ Dirección: %4
         <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Pfennig can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error crítico. Pfennig ya no puede continuar con seguridad y se cerrará.</translation>
+        <source>A fatal error occurred. AkiCoin can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error crítico. AkiCoin ya no puede continuar con seguridad y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -848,8 +848,8 @@ Dirección: %4
         <translation>La dirección introducida &quot;%1&quot; ya está presente en la libreta de direcciones.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Pfennig address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección Pfennig válida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AkiCoin address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección AkiCoin válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -886,12 +886,12 @@ Dirección: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pfennig Core - Command-line options</source>
+        <source>AkiCoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Núcleo de Pfennig</translation>
+        <source>AkiCoin Core</source>
+        <translation>Núcleo de AkiCoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -937,16 +937,16 @@ Dirección: %4
         <translation>Bienvenido</translation>
     </message>
     <message>
-        <source>Welcome to Pfennig Core.</source>
-        <translation>Bienvenido al Núcleo de Pfennig</translation>
+        <source>Welcome to AkiCoin Core.</source>
+        <translation>Bienvenido al Núcleo de AkiCoin</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pfennig Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Pfennig-Qt.</translation>
+        <source>As this is the first time the program is launched, you can choose where AkiCoin Core will store its data.</source>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos AkiCoin-Qt.</translation>
     </message>
     <message>
-        <source>Pfennig Core will download and store a copy of the Pfennig block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pfennig-Qt va a descargar y guardar una copia de la cadena de bloques de Pfennig. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
+        <source>AkiCoin Core will download and store a copy of the AkiCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>AkiCoin-Qt va a descargar y guardar una copia de la cadena de bloques de AkiCoin. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -957,8 +957,8 @@ Dirección: %4
         <translation>Utilice un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1019,12 +1019,12 @@ Dirección: %4
         <translation>Comisión de &amp;transacciones</translation>
     </message>
     <message>
-        <source>Automatically start Pfennig after logging in to the system.</source>
-        <translation>Iniciar Pfennig automáticamente al encender el sistema.</translation>
+        <source>Automatically start AkiCoin after logging in to the system.</source>
+        <translation>Iniciar AkiCoin automáticamente al encender el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Pfennig on system login</source>
-        <translation>&amp;Iniciar Pfennig al iniciar el sistema</translation>
+        <source>&amp;Start AkiCoin on system login</source>
+        <translation>&amp;Iniciar AkiCoin al iniciar el sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1039,8 +1039,8 @@ Dirección: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Pfennig network through a SOCKS proxy.</source>
-        <translation>Conéctese a la red Pfennig través de un proxy SOCKS.</translation>
+        <source>Connect to the AkiCoin network through a SOCKS proxy.</source>
+        <translation>Conéctese a la red AkiCoin través de un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1099,8 +1099,8 @@ Dirección: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Pfennig client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Pfennig en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the AkiCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente AkiCoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1155,8 +1155,8 @@ Dirección: %4
         <translation>I&amp;dioma de la interfaz de usuario</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pfennig.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Pfennig.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AkiCoin.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie AkiCoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1167,8 +1167,8 @@ Dirección: %4
         <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían monedas.</translation>
     </message>
     <message>
-        <source>Whether to show Pfennig addresses in the transaction list or not.</source>
-        <translation>Mostrar o no las direcciones Pfennig en la lista de transacciones.</translation>
+        <source>Whether to show AkiCoin addresses in the transaction list or not.</source>
+        <translation>Mostrar o no las direcciones AkiCoin en la lista de transacciones.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1222,8 +1222,8 @@ Dirección: %4
         <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pfennig network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Pfennig después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AkiCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red AkiCoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1277,8 +1277,8 @@ Dirección: %4
         <translation>Gestión de URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Pfennig address or malformed URI parameters.</source>
-        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Pfennig inválida o a parámetros de URI mal formados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AkiCoin address or malformed URI parameters.</source>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección AkiCoin inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1289,8 +1289,8 @@ Dirección: %4
         <translation>Error en petición de pago</translation>
     </message>
     <message>
-        <source>Cannot start pfennig: click-to-pay handler</source>
-        <translation>No se pudo iniciar pfennig: manejador de pago-al-clic</translation>
+        <source>Cannot start akicoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar akicoin: manejador de pago-al-clic</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1344,8 +1344,8 @@ Dirección: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Pfennig</source>
-        <translation>Pfennig</translation>
+        <source>AkiCoin</source>
+        <translation>AkiCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1360,12 +1360,12 @@ Dirección: %4
         <translation>Error: Combinación no válida de -regtest y -testnet.</translation>
     </message>
     <message>
-        <source>Pfennig Core didn&apos;t yet exit safely...</source>
+        <source>AkiCoin Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Introduzca una dirección Pfennig (ej. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Introduzca una dirección AkiCoin (ej. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
 </context>
 <context>
@@ -1486,7 +1486,7 @@ Dirección: %4
         <translation>Archivo de registro de depuración</translation>
     </message>
     <message>
-        <source>Open the Pfennig debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the AkiCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede llevar varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1494,8 +1494,8 @@ Dirección: %4
         <translation>Borrar consola</translation>
     </message>
     <message>
-        <source>Welcome to the Pfennig RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Pfennig</translation>
+        <source>Welcome to the AkiCoin RPC console.</source>
+        <translation>Bienvenido a la consola RPC de AkiCoin</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1557,7 +1557,7 @@ Dirección: %4
         <translation>R&amp;eutilizar una dirección existente para recibir (no recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pfennig network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AkiCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1870,8 +1870,8 @@ Dirección: %4
         <translation>La transacción fue rechazada. Esto puede haber ocurrido si alguna de las monedas ya estaba gastada o si ha usado una copia de wallet.dat y las monedas se gastaron en la copia pero no se han marcado como gastadas aqui.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pfennig address</source>
-        <translation>Alerta: Dirección de Pfennig inválida</translation>
+        <source>Warning: Invalid AkiCoin address</source>
+        <translation>Alerta: Dirección de AkiCoin inválida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1879,7 +1879,7 @@ Dirección: %4
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Alerta: Dirección de Pfennig inválida</translation>
+        <translation>Alerta: Dirección de AkiCoin inválida</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1957,7 +1957,7 @@ Dirección: %4
         <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the pfennig: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pfennig network.</source>
+        <source>A message that was attached to the akicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AkiCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1976,7 +1976,7 @@ Dirección: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pfennig Core is shutting down...</source>
+        <source>AkiCoin Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2031,8 +2031,8 @@ Dirección: %4
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pfennig address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Pfennig</translation>
+        <source>Sign the message to prove you own this AkiCoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección AkiCoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2059,8 +2059,8 @@ Dirección: %4
         <translation>La dirección con la que se firmó el mensaje (ej. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pfennig address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Pfennig indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified AkiCoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección AkiCoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2071,8 +2071,8 @@ Dirección: %4
         <translation>Limpiar todos los campos de la verificación de mensaje</translation>
     </message>
     <message>
-        <source>Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
-        <translation>Introduzca una dirección Pfennig (ej. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
+        <source>Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</source>
+        <translation>Introduzca una dirección AkiCoin (ej. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2130,12 +2130,12 @@ Dirección: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pfennig Core</source>
-        <translation>Núcleo de Pfennig</translation>
+        <source>AkiCoin Core</source>
+        <translation>Núcleo de AkiCoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core Developers</source>
-        <translation>Los desarrolladores del Núcleo de Pfennig</translation>
+        <translation>Los desarrolladores del Núcleo de AkiCoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2595,7 +2595,7 @@ Dirección: %4
     </message>
 </context>
 <context>
-    <name>pfennig-core</name>
+    <name>akicoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Uso:</translation>
@@ -2616,13 +2616,13 @@ Dirección: %4
 </translation>
     </message>
     <message>
-        <source>Specify configuration file (default: pfennig.conf)</source>
-        <translation>Especificar archivo de configuración (predeterminado: pfennig.conf)
+        <source>Specify configuration file (default: akicoin.conf)</source>
+        <translation>Especificar archivo de configuración (predeterminado: akicoin.conf)
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: pfennigd.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: pfennig.pid)
+        <source>Specify pid file (default: akicoind.pid)</source>
+        <translation>Especificar archivo pid (predeterminado: akicoin.pid)
 </translation>
     </message>
     <message>
@@ -2630,8 +2630,8 @@ Dirección: %4
         <translation>Especificar directorio para los datos</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: P2PPORT or testnet: 1P2PPORT)</source>
-        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: P2PPORT o testnet: 1P2PPORT)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8000 or testnet: 18000)</source>
+        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 8000 o testnet: 18000)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2658,8 +2658,8 @@ Dirección: %4
         <translation>Ha ocurrido un error al configurar el puerto RPC %u para escucha en IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: RPCPORT o testnet:1RPCPORT)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
+        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 8001 o testnet:18001)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2667,7 +2667,7 @@ Dirección: %4
 </translation>
     </message>
     <message>
-        <source>Pfennig Core RPC client version</source>
+        <source>AkiCoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2688,24 +2688,24 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AkiCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, debe establecer un valor rpcpassword en el archivo de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=pfennigrpc
+rpcuser=akicoinrpc
 rpcpassword=%s
 (no es necesario recordar esta contraseña)
 El nombre de usuario y la contraseña DEBEN NO ser iguales.
 Si el archivo no existe, créelo con permisos de archivo de solo lectura.
 Se recomienda también establecer alertnotify para recibir notificaciones de problemas.
-Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.com
+Por ejemplo: alertnotify=echo %%s | mail -s &quot;AkiCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2777,7 +2777,7 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pfennig Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. AkiCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2789,8 +2789,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Aviso: ¡-paytxfee tiene un valor muy alto! Esta es la comisión que pagará si envía una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pfennig will not work properly.</source>
-        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Pfennig no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AkiCoin will not work properly.</source>
+        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, AkiCoin no funcionará correctamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2825,8 +2825,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Intento de recuperar claves privadas de un wallet.dat corrupto</translation>
     </message>
     <message>
-        <source>Pfennig Core Daemon</source>
-        <translation>Proceso Pfennig-QT</translation>
+        <source>AkiCoin Core Daemon</source>
+        <translation>Proceso AkiCoin-QT</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2845,8 +2845,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Conectar a través de un proxy SOCKS</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: RPCPORT or testnet: 1RPCPORT)</source>
-        <translation>Conectar a JSON-RPC en &lt;puerto&gt; (predeterminado: RPCPORT o testnet: 1RPCPORT)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8001 or testnet: 18001)</source>
+        <translation>Conectar a JSON-RPC en &lt;puerto&gt; (predeterminado: 8001 o testnet: 18001)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3033,8 +3033,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use pfennig-cli):</source>
-        <translation>Uso (desaconsejado, usar pfennig-cli)</translation>
+        <source>Usage (deprecated, use akicoin-cli):</source>
+        <translation>Uso (desaconsejado, usar akicoin-cli)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3069,7 +3069,7 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Importa los bloques desde un archivo blk000??.dat externo</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pfennig Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. AkiCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3133,7 +3133,7 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3153,11 +3153,11 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Pfennig Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL: (ver la Pfennig Wiki para instrucciones de configuración SSL)</translation>
+        <source>SSL options: (see the AkiCoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL: (ver la AkiCoin Wiki para instrucciones de configuración SSL)</translation>
     </message>
     <message>
-        <source>Send command to Pfennig Core</source>
+        <source>Send command to AkiCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3193,7 +3193,7 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Especificar el tiempo máximo de conexión en milisegundos (predeterminado: 5000)</translation>
     </message>
     <message>
-        <source>Start Pfennig Core Daemon</source>
+        <source>Start AkiCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3318,12 +3318,12 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Pfennig Alert&quot; admin@foo.
         <translation>Error al cargar wallet.dat: el monedero está dañado</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pfennig</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Pfennig</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AkiCoin</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de AkiCoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pfennig to complete</source>
-        <translation>El monedero ha necesitado ser reescrito. Reinicie Pfennig para completar el proceso</translation>
+        <source>Wallet needed to be rewritten: restart AkiCoin to complete</source>
+        <translation>El monedero ha necesitado ser reescrito. Reinicie AkiCoin para completar el proceso</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

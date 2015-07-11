@@ -5,8 +5,8 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt \
   $(PROTOBUF_CFLAGS) \
     $(QR_CFLAGS)
-bin_PROGRAMS = test_pfennig-qt
-TESTS = test_pfennig-qt
+bin_PROGRAMS = test_akicoin-qt
+TESTS = test_akicoin-qt
 
 TEST_QT_MOC_CPP = moc_uritests.cpp
 
@@ -21,26 +21,26 @@ TEST_QT_H = \
 
 BUILT_SOURCES = $(TEST_QT_MOC_CPP)
 
-test_pfennig_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) $(QT_TEST_INCLUDES)
+test_akicoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) $(QT_TEST_INCLUDES)
 
-test_pfennig_qt_SOURCES = \
+test_akicoin_qt_SOURCES = \
   test_main.cpp \
   uritests.cpp \
   $(TEST_QT_H)
 if ENABLE_WALLET
-test_pfennig_qt_SOURCES += \
+test_akicoin_qt_SOURCES += \
   paymentservertests.cpp
 endif
 
-nodist_test_pfennig_qt_SOURCES = $(TEST_QT_MOC_CPP)
+nodist_test_akicoin_qt_SOURCES = $(TEST_QT_MOC_CPP)
 
-test_pfennig_qt_LDADD = $(LIBBITMARKQT) $(LIBBITMARK_SERVER)
+test_akicoin_qt_LDADD = $(LIBBITMARKQT) $(LIBBITMARK_SERVER)
 if ENABLE_WALLET
-test_pfennig_qt_LDADD += $(LIBBITMARK_WALLET)
+test_akicoin_qt_LDADD += $(LIBBITMARK_WALLET)
 endif
-test_pfennig_qt_LDADD += $(LIBBITMARK_CLI) $(LIBBITMARK_COMMON) $(LIBLEVELDB) \
+test_akicoin_qt_LDADD += $(LIBBITMARK_CLI) $(LIBBITMARK_COMMON) $(LIBLEVELDB) \
   $(LIBMEMENV) $(BOOST_LIBS) $(QT_DBUS_LIBS) $(QT_TEST_LIBS) $(QT_LIBS) \
   $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS)
-test_pfennig_qt_LDFLAGS = $(QT_LDFLAGS)
+test_akicoin_qt_LDFLAGS = $(QT_LDFLAGS)
 
 CLEANFILES = $(BUILT_SOURCES) *.gcda *.gcno

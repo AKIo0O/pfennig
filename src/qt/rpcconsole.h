@@ -14,7 +14,7 @@ namespace Ui {
     class RPCConsole;
 }
 
-/** Local Pfennig RPC console. */
+/** Local AkiCoin RPC console. */
 class RPCConsole: public QDialog
 {
     Q_OBJECT

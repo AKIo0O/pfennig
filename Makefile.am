@@ -4,13 +4,13 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-BITMARKD_BIN=$(top_builddir)/src/pfennigd$(EXEEXT)
-BITMARK_QT_BIN=$(top_builddir)/src/qt/pfennig-qt$(EXEEXT)
-BITMARK_CLI_BIN=$(top_builddir)/src/pfennig-cli$(EXEEXT)
+BITMARKD_BIN=$(top_builddir)/src/akicoind$(EXEEXT)
+BITMARK_QT_BIN=$(top_builddir)/src/qt/akicoin-qt$(EXEEXT)
+BITMARK_CLI_BIN=$(top_builddir)/src/akicoin-cli$(EXEEXT)
 BITMARK_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
-OSX_APP=Pfennig-Qt.app
-OSX_DMG=Pfennig-Qt.dmg
+OSX_APP=AkiCoin-Qt.app
+OSX_DMG=AkiCoin-Qt.dmg
 OSX_DEPLOY_SCRIPT=$(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST=$(top_srcdir)/contrib/macdeploy/fancy.plist
 OSX_INSTALLER_ICONS=$(top_srcdir)/src/qt/res/icons/bitmark.icns
@@ -29,9 +29,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/DS_Store
 
 COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
-  leveldb_baseline.info test_pfennig_filtered.info total_coverage.info \
+  leveldb_baseline.info test_akicoin_filtered.info total_coverage.info \
   baseline_filtered.info block_test_filtered.info \
-  leveldb_baseline_filtered.info test_pfennig_coverage.info test_bitmark.info
+  leveldb_baseline_filtered.info test_akicoin_coverage.info test_bitmark.info
 
 dist-hook:
 	-$(MAKE) -C $(top_distdir)/src/leveldb clean
@@ -72,13 +72,13 @@ $(OSX_APP)/Contents/Resources/bitmark.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/MacOS/Pfennig-Qt: $(BITMARK_QT_BIN)
+$(OSX_APP)/Contents/MacOS/AkiCoin-Qt: $(BITMARK_QT_BIN)
 	$(MKDIR_P) $(@D)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $< $@
 
 OSX_APP_BUILT=$(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitmark.icns $(OSX_APP)/Contents/Info.plist \
-  $(OSX_APP)/Contents/MacOS/Pfennig-Qt
+  $(OSX_APP)/Contents/MacOS/AkiCoin-Qt
 
 if BUILD_DARWIN
 $(OSX_DMG): $(OSX_APP_BUILT) $(OSX_PACKAGING)
@@ -91,7 +91,7 @@ $(OSX_DMG): $(OSX_APP_BUILT) $(OSX_PACKAGING)
 	$(INSTALL) contrib/macdeploy/background.png dist/.background
 	$(INSTALL) contrib/macdeploy/DS_Store dist/.DS_Store
 	cd dist; $(LN_S) /Applications Applications
-	$(GENISOIMAGE) -no-cache-inodes -l -probe -V "Pfennig-Qt" -no-pad -r -apple -o $@ dist
+	$(GENISOIMAGE) -no-cache-inodes -l -probe -V "AkiCoin-Qt" -no-pad -r -apple -o $@ dist
 endif
 
 if TARGET_DARWIN
@@ -125,10 +125,10 @@ test_bitmark.info: baseline_filtered_combined.info
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 
-test_pfennig_filtered.info: test_bitmark.info
+test_akicoin_filtered.info: test_bitmark.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-block_test.info: test_pfennig_filtered.info
+block_test.info: test_akicoin_filtered.info
 	$(MKDIR_P) qa/tmp
 	-@TIMEOUT=15 qa/pull-tester/run-bitmarkd-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool 0
 	$(LCOV) -c -d $(abs_builddir)/src --t BitmarkJBlockTest -o $@
@@ -138,13 +138,13 @@ block_test.info: test_pfennig_filtered.info
 block_test_filtered.info: block_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-test_pfennig_coverage.info: baseline_filtered_combined.info test_pfennig_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_pfennig_filtered.info -o $@
+test_akicoin_coverage.info: baseline_filtered_combined.info test_akicoin_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_akicoin_filtered.info -o $@
 
-total_coverage.info:  baseline_filtered_combined.info test_pfennig_filtered.info block_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_pfennig_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info:  baseline_filtered_combined.info test_akicoin_filtered.info block_test_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_akicoin_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_bitmark.coverage/.dirstamp:  test_pfennig_coverage.info
+test_bitmark.coverage/.dirstamp:  test_akicoin_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 

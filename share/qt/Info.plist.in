@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Pfennig-Qt</string>
+  <string>AkiCoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.bitmarkfoundation.Pfennig-Qt</string>
+  <string>org.bitmarkfoundation.AkiCoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

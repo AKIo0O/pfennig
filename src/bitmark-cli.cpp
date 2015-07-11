@@ -43,11 +43,11 @@ static bool AppInitRPC(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("--help"))
     {
         // First part of help message is specific to RPC client
-        std::string strUsage = _("Pfennig Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("AkiCoin Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  pfennig-cli [options] <command> [params]  " + _("Send command to Pfennig Core") + "\n" +
-              "  pfennig-cli [options] help                " + _("List commands") + "\n" +
-              "  pfennig-cli [options] help <command>      " + _("Get help for a command") + "\n";
+              "  akicoin-cli [options] <command> [params]  " + _("Send command to AkiCoin Core") + "\n" +
+              "  akicoin-cli [options] help                " + _("List commands") + "\n" +
+              "  akicoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
         strUsage += "\n" + HelpMessageCli(true);
 

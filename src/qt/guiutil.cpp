@@ -98,7 +98,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
     widget->setFont(bitmarkAddressFont());
 #if QT_VERSION >= 0x040700
-    widget->setPlaceholderText(QObject::tr("Enter a Pfennig address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)"));
+    widget->setPlaceholderText(QObject::tr("Enter a AkiCoin address (e.g. bQ3Gyigyd12kJDkhwi9M9QSZ9qu6M4NZzR)"));
 #endif
     widget->setValidator(new BitmarkAddressEntryValidator(parent));
     widget->setCheckValidator(new BitmarkAddressCheckValidator(parent));
@@ -538,12 +538,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Pfennig.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "AkiCoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Pfennig.lnk
+    // check for AkiCoin.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -661,7 +661,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitmark.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Pfennig\n";
+        optionFile << "Name=AkiCoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

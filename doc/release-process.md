@@ -82,9 +82,9 @@ Release Process
 	./bin/gbuild ../bitmark/contrib/gitian-descriptors/gitian-osx-qt.yml
 	mv build/out/osx-*.tar.gz inputs/
 
- SHA256 hashes of intermediate inputs will be different for each project based on pfennig.
+ SHA256 hashes of intermediate inputs will be different for each project based on akicoin.
  
- Build pfennigd and pfennig-qt on Linux32, Linux64, and Win32:
+ Build akicoind and akicoin-qt on Linux32, Linux64, and Win32:
   
 	./bin/gbuild --commit bitmark=v${VERSION} ../bitmark/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../bitmark/contrib/gitian-descriptors/gitian-linux.yml
@@ -101,7 +101,7 @@ Release Process
     ./bin/gbuild --commit bitmark=v${VERSION} ../bitmark/contrib/gitian-descriptors/gitian-osx-bitmark.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-osx --destination ../gitian.sigs/ ../bitmark/contrib/gitian-descriptors/gitian-osx-bitmark.yml
 	pushd build/out
-	mv Pfennig-Qt.dmg ../../../
+	mv AkiCoin-Qt.dmg ../../../
 	popd
 	popd
 
@@ -109,7 +109,7 @@ Release Process
 
   1. linux 32-bit and 64-bit binaries + source (bitmark-${VERSION}-linux-gitian.zip)
   2. windows 32-bit and 64-bit binaries + installer + source (bitmark-${VERSION}-win-gitian.zip)
-  3. OSX installer (Pfennig-Qt.dmg)
+  3. OSX installer (AkiCoin-Qt.dmg)
   4. Gitian signatures (in gitian.sigs/${VERSION}[-win|-osx]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe

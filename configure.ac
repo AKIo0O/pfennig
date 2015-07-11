@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 4)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2015)
-AC_INIT([Pfennig Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@bitmark.org],[bitmark])
+AC_INIT([AkiCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@bitmark.org],[bitmark])
 AC_CONFIG_AUX_DIR([src/build-aux])
 AC_CONFIG_MACRO_DIR([src/m4])
 AC_CANONICAL_HOST
@@ -508,8 +508,8 @@ AC_ARG_WITH([cli],
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
   [with daemon (default is yes)])],
-  [build_pfennigd=$withval],
-  [build_pfennigd=yes])
+  [build_akicoind=$withval],
+  [build_akicoind=yes])
 
 BITMARK_QT_INIT
 
@@ -547,11 +547,11 @@ fi
 
 BITMARK_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build pfennigd])
-AM_CONDITIONAL([BUILD_BITMARKD], [test x$build_pfennigd = xyes])
-AC_MSG_RESULT($build_pfennigd)
+AC_MSG_CHECKING([whether to build akicoind])
+AM_CONDITIONAL([BUILD_BITMARKD], [test x$build_akicoind = xyes])
+AC_MSG_RESULT($build_akicoind)
 
-AC_MSG_CHECKING([whether to build pfennig-cli])
+AC_MSG_CHECKING([whether to build akicoin-cli])
 AM_CONDITIONAL([BUILD_BITMARK_CLI], [test x$build_bitmark_cli = xyes])
 AC_MSG_RESULT($build_bitmark_cli)
 
@@ -644,7 +644,7 @@ if test x$bitmark_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_pfennig-qt])
+  AC_MSG_CHECKING([whether to build test_akicoin-qt])
   if test x$use_tests$bitmark_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"
@@ -661,7 +661,7 @@ else
   AC_MSG_RESULT([no])
 fi
 
-if test "x$use_tests$build_pfennigd$use_qt" = "xnonono"; then
+if test "x$use_tests$build_akicoind$use_qt" = "xnonono"; then
   AC_MSG_ERROR([No targets! Please specify at least one of: --enable-cli --enable-daemon --enable-gui or --enable-tests])
 fi
 

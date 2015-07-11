@@ -66,10 +66,10 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent) :
     ui->setupUi(this);
     GUIUtil::restoreWindowGeometry("nHelpMessageDialogWindow", this->size(), this);
 
-    header = tr("Pfennig Core") + " " + tr("version") + " " +
+    header = tr("AkiCoin Core") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  pfennig-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  akicoin-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage(HMM_BITMARK_QT));
 
@@ -126,7 +126,7 @@ void ShutdownWindow::showShutdownWindow(BitmarkGUI *window)
     QWidget *shutdownWindow = new QWidget();
     QVBoxLayout *layout = new QVBoxLayout();
     layout->addWidget(new QLabel(
-        tr("Pfennig Core is shutting down...") + "<br /><br />" +
+        tr("AkiCoin Core is shutting down...") + "<br /><br />" +
         tr("Do not shut down the computer until this window disappears.")));
     shutdownWindow->setLayout(layout);
 
